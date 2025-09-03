@@ -1,35 +1,3 @@
-"""
-Bangkok Transit Planner — Web UI (Streamlit demo)
-
-Features:
-- Origin/Destination search
-- Optimize by time, fare, or minimal transfers
-- Service hours, frequency, and timetable info
-- Interactive map (via folium)
-
-Requirements:
-  streamlit
-  networkx
-  folium
-  streamlit-folium
-
-Deployment (Streamlit Cloud):
-1. สร้าง GitHub repository แล้ว commit โค้ดนี้ (เช่น `app.py`).
-2. เพิ่มไฟล์ `requirements.txt` โดยใส่บรรทัด:
-   ```
-   streamlit
-   networkx
-   folium
-   streamlit-folium
-   ```
-3. ไปที่ [https://share.streamlit.io](https://share.streamlit.io) แล้วกด **New app**.
-4. เลือก repo + branch + ไฟล์ (เช่น `app.py`).
-5. Streamlit จะ deploy และสร้างลิงก์ preview เช่น:
-   ```
-   https://your-app-name-your-username.streamlit.app
-   ```
-"""
-
 import streamlit as st
 import networkx as nx
 import folium
